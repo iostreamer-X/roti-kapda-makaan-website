@@ -1,25 +1,24 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Kube for Hugo"
+title = "Roti Kapda Makaan"
 theme = "kube"
-description = "Kube is a professional  and a responsive Hugo theme for developers and designers that offers a documentation section mixed with a landing page and a blog"
+description = "It's a JS package which creates unique combinations of hinglish words. Next time you want to share a unique id, you might as well share 42-roti-kapda-makaan!"
 Paginate = 4
 [Params]
   RSSLink = "/index.xml"
-  author = "newpixcom" # add your company name
-  github = "" # add your github profile name
-  twitter = "" # add your twitter profile
-  email = "myemail@myaddress.xxx"
+  author = "Rahul Ramteke" # add your company name
+  github = "https://github.com/iostreamer-X" # add your github profile name
+  email = "iostreamer007@gmail.com"
 
 [[menu.main]]
     name = "Docs"
     weight = -100
     url = "/docs/"
 [[menu.main]]
-    name = "Blog"
-    weight = -100
-    url = "/blog/"
-[[menu.main]]
-    name = "Faq"
+    name = "FAQ"
     weight = -100
     url = "/faq/"
+[[menu.main]]
+    name = "Download"
+    weight = -100
+    url = "/download/"
