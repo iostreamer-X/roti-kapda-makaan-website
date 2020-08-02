@@ -14,11 +14,3 @@ Paginate = 4
     name = "Docs"
     weight = -100
     url = "/docs/"
-[[menu.main]]
-    name = "FAQ"
-    weight = -100
-    url = "/faq/"
-[[menu.main]]
-    name = "Download"
-    weight = -100
-    url = "/download/"
