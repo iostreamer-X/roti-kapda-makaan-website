@@ -20,7 +20,8 @@
 
   {{ partial "meta/name-author" . }}
   {{ template "_internal/opengraph.html" . }}
-  {{ partial "meta/ogimage" . }}
+  <meta property="og:image" content="https://roti-kapda-makaan.dev/img/rkm-logo.png">
+  <meta property="og:description" content="A JS package which generates unique combinations of hinglish words.">
   <!-- Site verification -->
   {{ if .IsHome }} {{ partial "site-verification" . }} {{ end }}
   <!-- add googleAnalytics in config.toml -->
