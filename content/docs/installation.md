@@ -16,7 +16,7 @@ npm install roti-kapda-makaan
 ```
 **Web**
 ```
-<script src="https://cdn.jsdelivr.net/npm/roti-kapda-makaan@1.0.2/dist/roti-kapda-makaan.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/roti-kapda-makaan@2.0.1/dist/roti-kapda-makaan.min.js"></script>
 ```
 
 ## Usage
